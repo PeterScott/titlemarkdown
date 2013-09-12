@@ -1,4 +1,6 @@
-# Title Markdown: a very restrictive subset of Markdown, meant for titles and short messages
+## Title Markdown: a very restrictive subset of Markdown, meant for titles and short messages
+
+[![Travis build status](https://travis-ci.org/PeterScott/titlemarkdown.png)](https://travis-ci.org/PeterScott/titlemarkdown)
 
 Wouldn't it be nice if you could put really basic Markdown formatting in one-line messages, like chat messages or titles of things? Full Markdown is too featureful, and plain text is plain. This is a middle ground.
 
