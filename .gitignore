@@ -1,0 +1,7 @@
+*.o
+engine.c
+*.dSym
+build/
+dist/
+*.egg-info
+*.so
