@@ -17,3 +17,7 @@ Supported syntax:
 That's it. That's literally all the syntax. HTML is escaped, and unlike most Markdown dialects, the parser can handle links like
 
     [this thing](http://en.wikipedia.org/wiki/Tree_(data_structure))
+
+However, it can only handle a single level of parenthesis nesting. This is almost always sufficient.
+
+Building this module requires [Ragel](http://www.complang.org/ragel/), unless you get it from PyPI.
