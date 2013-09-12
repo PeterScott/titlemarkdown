@@ -22,7 +22,6 @@ setup(
     zip_safe = False,
     ext_modules = [Extension("titlemarkdown", ["titlemarkdown.c", "engine.c"])],
     classifiers = [
-        'Development Status :: 5 - Production/Stable',
         'License :: OSI Approved :: Apache Software License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
