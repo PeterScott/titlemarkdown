@@ -9,7 +9,12 @@ static PyObject *toHtml(PyObject *self, PyObject *args) {
   PyMem_Free((void*)str);
   if (result == NULL) return NULL;
 
+#if PY_MAJOR_VERSION >= 3
+  PyObject *resultStr = PyBytes_FromString(result);
+#else
   PyObject *resultStr = PyString_FromString(result);
+#endif
+
   free(result);
   return resultStr;
 }
